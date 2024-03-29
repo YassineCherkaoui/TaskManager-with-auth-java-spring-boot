@@ -1,0 +1,23 @@
+server:
+    port: 8080
+cors:
+    originPatterns: http://localhost:3000
+security:
+    jwt:
+        token:
+            secret-key: 53cr37
+            expire-length: 3600000
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/db_api_task_test
+        username: postgres
+        password: 123
+        driver-class-name: org.postgresql.Driver
+    jpa:
+        hibernate:
+            ddl-auto: none
+            dialect: org.hibernate.dialect.PostgreSQLDialect
+spring-doc:
+    pathsToMatch: /api/**
+    swagger-ui:
+        use-root-path: true
