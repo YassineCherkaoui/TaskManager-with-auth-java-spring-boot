@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a25c238-b8d5-47cf-9c03-f9a47a640784" name="Changes" comment="" />
+    <list default="true" id="9a25c238-b8d5-47cf-9c03-f9a47a640784" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/Create_Table_User.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/ApiTaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/ApiTaskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/configs/JwtAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/configs/JwtAuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/configs/OpenApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/configs/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/configs/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/controllers/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/controllers/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/ResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/ResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/security/LoginRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/security/LoginRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/security/TokenResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/security/TokenResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/task/TaskMapperDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/task/TaskMapperDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/task/TaskRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/task/TaskRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/task/TaskResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/task/TaskResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/user/UserMapperDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/user/UserMapperDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/user/UserRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/user/UserRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/user/UserResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/user/UserResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/dto/utils/LinkUtilDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/dto/utils/LinkUtilDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/entities/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/entities/RoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/entities/TaskEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/entities/TaskEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/entities/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/entities/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/exceptions/ApiTaskLoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/exceptions/ApiTaskLoginException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/exceptions/ApiTaskMessageError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/exceptions/ApiTaskMessageError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/exceptions/ApiTaskResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/exceptions/ApiTaskResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/exceptions/ApiTaskSQLException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/exceptions/ApiTaskSQLException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/exceptions/CustomRestExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/exceptions/CustomRestExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/repositories/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/repositories/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/TaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/TokenJwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/TokenJwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/TokenJwtServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/TokenJwtServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/julioevencio/apitask/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V01__Create_Table_Role.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V01__Create_Table_Role.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V02__Create_Table_User.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/github/julioevencio/apitask/ApiTaskApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cherkaoui/yassine/apitask/ApiTaskApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V01__Create_Table_Role.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V01__Create_Table_Role.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V02__Create_Table_User.sql" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +64,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2eMUpSXJOkk4Bo4usuDX9DDJNJW" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,39 +74,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Unnamed.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiTaskApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/learning/TaskManager-with-auth-java-spring-boot/src/main/resources/db/changelog/changes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TaskManager-with-auth-java-spring-boot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TaskManager-with-auth-java-spring-boot" />
-      <option name="filePath" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\TaskManager-with-auth-java-spring-boot\src\main\resources\db\changelog\changes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cherkaoui.yassine.apitask.ApiTaskApplication" />
+      <module name="api-task" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ApiTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="api-task" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.julioevencio.apitask.ApiTaskApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cherkaoui.yassine.apitask.ApiTaskApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Spring Boot.ApiTaskApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,10 +145,28 @@
       <option name="presentableId" value="Default" />
       <updated>1711714123894</updated>
       <workItem from="1711714125809" duration="597000" />
+      <workItem from="1716283122378" duration="7799000" />
+      <workItem from="1716365793198" duration="42000" />
+      <workItem from="1716365844121" duration="5576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cherkaoui/yassine/apitask/services/UserService.java</url>
+          <line>11</line>
+          <properties class="com.cherkaoui.yassine.apitask.services.UserService" method="register">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
